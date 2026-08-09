@@ -2,13 +2,19 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/styles.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
     <title>Contact</title>
 </head>
-<body>
+
+<body class="contact">
     <header>
-        <h1>Contact</h1>
+        <h1>Contact Page</h1>
     </header>
-    <main>
+     <main>
+
         <nav>
             <ul>
                 <li><a href="../index.html">Home</a></li>
@@ -17,14 +23,32 @@
             </ul>
         </nav>
 
-        <section id="contact">
+        <section>
            <h2><p>Get in touch with Junelle.</p></h2>
         </section>
 
-        <section id="contact-info">
+        <section>
             <p>Email: jnuno@my.campus.edu</p>
-            <p>Phone: (555) 555-5555</p>
+            <p>Phone: (555) 555-5555</p></section>
         </section>
+
+        <section id="form-section">
+            <form class ="contact-form">
+            <label for ="name">Name</label>
+            <input type="text" id="name" name="name" placeholder ="Your Name">
+
+            <label for ="email">email</label>
+            <input type="email" id="email" name="E-mail" placeholder ="Your e-mail">
+
+            <label for ="message">Message</label>
+            <textarea id="message" name="message" placeholder ="Your Message"></textarea>
+            
+            <button type="Submit">Send</button>
+
+            </form>
+        </section>
+    
     </main>
+
 </body>
 </html>
