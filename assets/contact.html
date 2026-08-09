@@ -24,27 +24,39 @@
         </nav>
 
         <section>
-           <h2><p>Get in touch with Junelle.</p></h2>
+           <h2>Get in touch with Junelle</h2>
         </section>
 
         <section>
-            <p>Email: jnuno@my.campus.edu</p>
-            <p>Phone: (555) 555-5555</p></section>
+            <h3>Email: jnuno@my.campus.edu</h3>
+            <h4>Phone: (555) 555-5555</h4></section>
         </section>
 
         <section id="form-section">
             <form class ="contact-form">
+
+                <fieldset>
+
+                <legend>Contact Information</legend>
+
             <label for ="name">Name</label>
-            <input type="text" id="name" name="name" placeholder ="Your Name">
+            <input type="text" id="name" name="name" placeholder ="Your Name" required aria-describedby="name-error">
+            
+            <span id="name-error" class="name-error"> Please enter your name </span>
 
             <label for ="email">email</label>
-            <input type="email" id="email" name="E-mail" placeholder ="Your e-mail">
+            <input type="email" id="email" name="email" placeholder ="Your e-mail" required aria-describedby="name-error">
+              
+            <span id="email-error" class="error"> Please enter a valid email address </span>
 
             <label for ="message">Message</label>
-            <textarea id="message" name="message" placeholder ="Your Message"></textarea>
-            
-            <button type="Submit">Send</button>
+            <textarea id="message" name="message" placeholder ="Your Message" required aria-describedby="message-error"></textarea>
+                    
+            <span id="message-error" class="error"> Please enter a message. </span>
 
+            <button aria="submit">Submit</button>
+        
+                </fieldset>
             </form>
         </section>
     
