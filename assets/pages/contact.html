@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <title>Contact</title>
+</head>
+
+<body class="contact">
+    <header>
+        <h1>Contact Page</h1>
+    </header>
+    <main>
+
+        <nav>
+            <ul>
+                <li><a href="../../index.html">Home</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./projects.html">Projects</a></li>
+            </ul>
+        </nav>
+
+        <section>
+            <h2>Get in touch with Junelle</h2>
+        </section>
+
+        <section>
+            <h3>Email: jnuno@my.campus.edu</h3>
+            <h4>Phone: (555) 555-5555</h4>
+        </section>
+        </section>
+
+        <section id="form-section">
+            <form class="contact-form">
+
+                <fieldset>
+
+                    <legend>Contact Information</legend>
+
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your Name" required
+                        aria-describedby="name-error">
+
+                    <span id="name-error" class="name-error"> Please enter your name </span>
+
+                    <label for="email">email</label>
+                    <input type="email" id="email" name="email" placeholder="Your e-mail" required
+                        aria-describedby="name-error">
+
+                    <span id="email-error" class="error"> Please enter a valid email address </span>
+
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" placeholder="Your Message" required
+                        aria-describedby="message-error"></textarea>
+
+                    <span id="message-error" class="error"> Please enter a message. </span>
+
+                    <button aria="submit">Submit</button>
+
+                </fieldset>
+            </form>
+        </section>
+
+    </main>
+
+</body>
+
+</html>
