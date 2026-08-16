@@ -1,7 +1,9 @@
 ACCESSIBILITY:
 1.Contrast color on my Contact page was adjusted in order to make text easier to read.
 
-2.Contrast color on my About page was adjusted in order to make text easier to read.
+Contrast color on my About page was adjusted in order to make text easier to read.
+
+2.Home page had improper heading structure and skipped from h1 to h3 instead of a logical hierarchy (eg.h1 to h2 to h3).
 
 3.Removed <p> from h2 headings in contact page because it was causing the styles to malfunction and not applying the design properly.
 
